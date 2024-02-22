@@ -7,6 +7,7 @@
 ## Overview
 
 A RESTful API for managing clients' contact data (emails and phones).
+[API Documentation](https://client-contact-api.onrender.com/docs/swagger-ui/index.html)
 
 
 ## Technologies and dependencies
@@ -125,7 +126,7 @@ DELETE /api/clients/1
 
 ## API Documentation
 
-For other entrypoints, please refer to the API documentation which will be available on your host at `/docs/swagger-ui/index.html`.
+For more detailed information on the entry points, please refer to the API documentation which is available [here](https://client-contact-api.onrender.com/docs/swagger-ui/index.html) or on your host at `/docs/swagger-ui/index.html`.
 
 
 
