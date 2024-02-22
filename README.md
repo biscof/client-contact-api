@@ -6,8 +6,9 @@
 
 ## Overview
 
-A RESTful API for managing clients' contact data (emails and phones).
-[API Documentation](https://client-contact-api.onrender.com/docs/swagger-ui/index.html)
+A RESTful API for managing clients' contact data (emails and phones). To test the functionality of this API, you can send requests to https://client-contact-api.onrender.com.
+
+API documentation is available [here](https://client-contact-api.onrender.com/docs/swagger-ui/index.html).
 
 
 ## Technologies and dependencies
