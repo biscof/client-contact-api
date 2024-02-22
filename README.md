@@ -65,6 +65,18 @@ Content-Type: application/json
 }
 ```
 
+- **Get a list of all the clients**
+
+```http
+GET /api/clients
+```
+
+- **Get client's details by ID**
+
+```http
+GET /api/clients/1
+```
+
 - **Add client's new phone number**
 
 ```http
@@ -87,10 +99,28 @@ Content-Type: application/json
 }
 ```
 
+- **Get all user's phone numbers by ID**
+
+```http
+GET /api/clients/1/phones
+```
+
+- **Get all user's emails by ID**
+
+```http
+GET /api/clients/1/emails
+```
+
 - **Retrieve all contacts of a user by ID**
 
 ```http
 GET /api/clients/1/contacts
+```
+
+- **Delete a client by ID**
+
+```http
+DELETE /api/clients/1
 ```
 
 ## API Documentation
