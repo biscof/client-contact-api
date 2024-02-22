@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: test
+  datasource:
+    url: "jdbc:h2:mem:db"
+    username:
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+  liquibase:
+    change-log: classpath:db/changelog/db.changelog-master.yaml
+
+base-url: /api
+
